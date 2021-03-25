@@ -1,0 +1,9 @@
+- Which region/org/space/instance is it?
+- When did you see the issue for the first time? Please specify your timezone.
+- How long was the flow running before the issue occurred?
+- Are you still able to reproduce the issue?
+- If applicable, the browser type and version that you're using. (We support the latest browser versions only.)
+- Any log entries that describe the problem.
+- The impact that the problem is having on your business.
+
+https://cloud.ibm.com/docs/services/AppConnect?topic=AppConnect-troubleshootingfalse
