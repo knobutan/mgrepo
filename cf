@@ -1,0 +1,15 @@
+ibmcloud login
+ibmcloud target --cf
+ibmcloud cf app <APP NAME>
+ibmcloud cf events <APP NAME>
+ibmcloud cf logs --recent <APP NAME>
+
+App name or App Root: 
+  Region:
+  Org:
+  Space:
+
+PD Sev1:  Bluemix GRE-cases Sev1 Alerts
+PD Sev2-4:  Bluemix GRE-cases Sev2-3-4 Alerts
+Configuration Item:
+bluemix-cloudfoundry
