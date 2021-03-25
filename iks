@@ -1,0 +1,13 @@
+   ibmcloud ks clusters
+   ibmcloud ks cluster get --cluster <cluster name or id>
+   ibmcloud ks worker ls --cluster <cluster name or id>
+   ibmcloud ks worker get --cluster <cluster name or id> --worker <worker node id>
+   ibmcloud ks cluster config <cluster name or id>
+   kubectl get nodes -o wide
+   kubectl get pods -o wide --all-namespaces
+   kubectl get services --all-namespaces
+   kubectl get deployments --all-namespaces
+   
+PagerDuty:
+PD for SEV1 - Armada - Containers SRE - Sev1
+PD for SEV2,3,4 - Armada - Containers SRE - Sev2
