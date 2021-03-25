@@ -1,2 +1,8 @@
-Where is it deplyed? Region / Org / Space\n 
-Share the yaml file
+Where is it deplyed? Region / Org / Space
+Component impacted - API Manager, API Calls, Portal
+If APIs, is the problem specific to an API?
+CURL call including headers so we can reproduce
+Does it reproduce every time? 
+Since when do you have this problem? Was it working before?
+
+If Reserved Instance or Dedicated then info on the specific customer environment
