@@ -3,4 +3,7 @@ If chaincode issue: What is the Channel Name, Chaincode ID and Version. Can you 
 What was done/happening prior to the problem?
 Please list any logging messages seen in the peer or chaincode when the problem occurs.
 
+##NOTE##
 https://github.ibm.com/IBM-Blockchain/operations/blob/master/runbooks/common/common-info-to-gather.md
+Confifuration item - blockchain
+Slack channel - blockchain-at-ibm
