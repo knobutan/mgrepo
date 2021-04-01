@@ -11,9 +11,6 @@ sev3@logdna.zendesk.com
 sev4@logdna.zendesk.com
 
 ##NOTE##
-Slack channels
 ibm-logdna-guest-help for general questions.
 ibm-logdna-guest-cso for internal communication like following up with LogDNA 3rd party ticket.
 ibm-logdna-guest-cie for incidents
-
-Configuration item - logdna
