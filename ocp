@@ -1,0 +1,20 @@
+Sample Commands to get the cluster information
+  ibmcloud oc cluster get --cluster <cluster name or id>
+  ibmcloud oc worker ls --cluster <cluster name or id>
+  ibmcloud oc worker get --cluster <cluster name or id> --worker <worker node id>
+  ibmcloud oc cluster config --cluster <cluster name or id> --admin -q
+  oc get pods -n <namespace>
+  oc describe pod <pod_name> -n <namespace>
+  oc logs <pod_name> -n <namespace>
+  oc get node -o wide
+  oc get routes
+  oc get route <route-name> -o yaml
+  
+Cluster details (ibmcloud oc get --cluster <cluster_name_or_ID>)
+ - Account Name/ID
+ - Cluster Name/ID(s)
+ - Master Location/Worker Zones
+ - Version
+
+##NOTE##
+iks-openshift-users
