@@ -1,3 +1,9 @@
+Could you elaborate on the issue/symptom?
+Do you know an action/event/call/URL to reproduce the issue/symptom?
+When did you see the issue for the first time? Was it working in the past? (Please specify your timezone)
+Have you changed any configuration around the time?
+
+Please collect the problematic CF app information/logs.
 ibmcloud login
 ibmcloud target --cf
 ibmcloud cf app <APP NAME>
@@ -9,7 +15,9 @@ App name or App Root:
   Org:
   Space:
 
-PD Sev1:  Bluemix GRE-cases Sev1 Alerts
-PD Sev2-4:  Bluemix GRE-cases Sev2-3-4 Alerts
+##NOTE##
 Configuration Item:
 bluemix-cloudfoundry
+
+Support Public Slack Channel:
+cf-fabric
