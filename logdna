@@ -1,2 +1,19 @@
-logDNA dashboard URL
-agent log etc
+LogDNA dashboard URL. It contains ID of your instance. For example https://app.us-south.logging.cloud.ibm.com/XXXX/logs/view
+LogDNA Agent version (To retrieve agent version from Kubernetes Daemonset, follow those steps:
+$ kubectl get pods -l app=logdna-agent
+$ kubectl exec POD_NAME -- logdna-agent -v (substituting POD_NAME with one of the pod name retrieved from the previous command)
+Any configurations inclusive of the reported problem, or known changes ( Is a cloud resource Kubernetes Container, Linux or Cloud Platform?)
+
+##Support email address##
+sev1@logdna.zendesk.com
+sev2@logdna.zendesk.com
+sev3@logdna.zendesk.com
+sev4@logdna.zendesk.com
+
+##NOTE##
+Slack channels
+ibm-logdna-guest-help for general questions.
+ibm-logdna-guest-cso for internal communication like following up with LogDNA 3rd party ticket.
+ibm-logdna-guest-cie for incidents
+
+Configuration item - logdna
