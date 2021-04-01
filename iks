@@ -1,3 +1,4 @@
+Cluster details
    ibmcloud ks clusters
    ibmcloud ks cluster get --cluster <cluster name or id>
    ibmcloud ks worker ls --cluster <cluster name or id>
@@ -7,7 +8,19 @@
    kubectl get pods -o wide --all-namespaces
    kubectl get services --all-namespaces
    kubectl get deployments --all-namespaces
-   
-PagerDuty:
-PD for SEV1 - Armada - Containers SRE - Sev1
-PD for SEV2,3,4 - Armada - Containers SRE - Sev2
+
+Identify which components the customer is asking then follow Troubleshooting cluster components.
+https://cloud.ibm.com/docs/containers?topic=containers-cs_sitemap#sitemap_troubleshooting_cluster_components
+  Such as ...
+  Clusters and worker nodes
+  Cluster autoscaler
+  Cluster networking
+  Logging and monitoring
+  Apps and services
+  Managed add-ons
+  Load balancers
+  Ingress
+  Persistent storage
+
+##NOTE##
+armada-users
