@@ -2,3 +2,15 @@ Blockchain dashboard URL. It includes instance ID
 If chaincode issue: What is the Channel Name, Chaincode ID and Version. Can you send us a copy of chaincode?
 What was done/happening prior to the problem?
 Please list any logging messages seen in the peer or chaincode when the problem occurs.
+
+Peer log
+$ kubectl logs [peer-pod] -c proxy -n [namespace]
+
+Orderer log
+$ kubectl logs [orderer-pod] -c proxy -n [namespace]
+
+CouchDB and Chaindcode container logs.
+$ kubectl logs  pod <peer-name> -c  <container- name> > <peer-name>.txt 
+
+Peer Pod information.
+$ kubectl describe  pod <peer-name> > <peer-name>.txt 
