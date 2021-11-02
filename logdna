@@ -15,6 +15,6 @@ sev4@logdna.zendesk.com
 https://ibm.ent.box.com/folder/129553772450
 
 ##NOTE##
-ibm-logdna-guest-help for general questions.
-ibm-logdna-guest-cso for internal communication like following up with LogDNA 3rd party ticket.
-ibm-logdna-guest-cie for incidents
+#ibm-logdna-guest-help
+#ibm-logdna-guest-cso
+#ibm-logdna-guest-cie
