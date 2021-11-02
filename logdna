@@ -15,6 +15,6 @@ sev4@logdna.zendesk.com
 https://ibm.ent.box.com/folder/129553772450
 
 ##NOTE##
-#ibm-logdna-guest-help
-#ibm-logdna-guest-cso
-#ibm-logdna-guest-cie
+ibm-logdna-guest-help
+ibm-logdna-guest-cso
+ibm-logdna-guest-cie
