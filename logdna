@@ -1,9 +1,10 @@
 LogDNA dashboard URL. It contains ID of your instance. 
 https://app.us-south.logging.cloud.ibm.com/XXXX/logs/view
 Any configurations inclusive of the reported problem, or known changes (Is a cloud resource Kubernetes Container, Linux or Cloud Platform?)
-LogDNA Agent version (To retrieve agent version from Kubernetes Daemonset, follow those steps:
+```
 $ kubectl get pods -l app=logdna-agent
 $ kubectl exec POD_NAME -- logdna-agent -v (substituting POD_NAME with one of the pod name retrieved from the previous command)
+```
 
 ##Support email address##
 sev1@logdna.zendesk.com
