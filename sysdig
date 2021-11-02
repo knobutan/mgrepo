@@ -1,31 +1,19 @@
 The URL for your Sysdig instance when you launch from the /observe/monitoring URL.
-The name of the IBM service.
-End user first and last name - this is helpful to facilitate impersonations for the customer's environment when the instance has multiple users.
-##If related to UI issue##
-The URL address for the link.
-The screen shots of the problem you are observing.
-Please help capture the HAR file , you could follow the steps described in 
-https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting to collect that. 
-Those files will be so helpful for us to narrow down our analysis.
-##If related to Sysdig Agent issue##
-please help provide the dragent.yaml or Kubernetes configmap configuration files for the agent 
-( this may include prometheus.yaml file if the agnet is configured to use promscrape filtering ).
-Full logs for the sysdig agents for any questions related to the agents, data collection and missing data.
+https://cloud.ibm.com/observe/embedded-view/monitoring/XXX
 
-If issues involving platform metrics should typically be directed to the IBM service team responsible for generating the platform metrics.
-	https://github.ibm.com/cloud-partners/Sysdig/blob/master/sequence-diagrams/platform-metrics-service-debugging.png
+```
+Configmap
+$ kubectl get configmap sysdig-agent -n ibm-observe -o yaml 
 
+Agent log
+$ kubectl logs -n ibm-observe <sysdig-agent-pod-name>
+
+Agent describe
+$ kubectl get pods -n ibm-observe <sysdig-agent-pod-name>
+```
 
 ##Support email address##
-Open TPT The target email address for Sysdig is support@sysdig.com
+support@sysdig.com
 
-##Sending Attachments to Sysdig##
-* Create a directory with the TPT number in the Box folder https://ibm.ent.box.com/folder/135718285236
-* Create a subdirectory fromIBM
-* Place all relevant attachments from the customer in fromIBM folder
-* Update the TPT and inform Sysdig team that attachment location (this is really not needed but helps)
-
-##Escalating Sysdig ServiceNow cases to Sysdig##
-If we're not getting the response needed from the SysDig support group we can escalate the case with them by calling +1-415-855-4344. 
-When/If prompted for a phone number, give the number 914-499-1900 and you should be identified as IBM Cloud Support. 
-If not, just identify yourself as an IBM Cloud Support engineer and go from there.
+##Box link##
+https://ibm.ent.box.com/folder/135718285236
