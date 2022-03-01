@@ -15,6 +15,14 @@ $ kubectl get pods -n ibm-observe <sysdig-agent-pod-name>
 ##Support email address##
 support@sysdig.com
 
+Subject
+[PRIORITY=] IBM Cloud Support Ticket TPT####### Requires Assistance
+Body of the support case should include the following highlighted fields to help reduce the initial back-and-forth communication:
+    Customer Support (CS#)
+    Region(s)
+    Instance ID(s)
+    Agent Version
+
 ##Box link##
 https://ibm.ent.box.com/folder/135718285236
 
