@@ -7,10 +7,10 @@ $ kubectl logs -n ibm-observe <sysdig-agent-pod-name>
 ```
 
 ##Support email address##
-sev1@logdna.zendesk.com
-sev2@logdna.zendesk.com
-sev3@logdna.zendesk.com
-sev4@logdna.zendesk.com
+sev1@mezmo.zendesk.com
+sev2@mezmo.zendesk.com
+sev3@mezmo.zendesk.com
+sev4@mezmo.zendesk.com
 
 ##Box link##
 https://ibm.ent.box.com/folder/129553772450
