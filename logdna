@@ -3,7 +3,7 @@ https://cloud.ibm.com/observe/embedded-view/logging/XXX
 Any configurations inclusive of the reported problem, or known changes (Is a cloud resource Kubernetes Container, Linux or Cloud Platform?)
 ```
 $ kubectl get pods -l app=logdna-agent
-$ kubectl logs -n ibm-observe <sysdig-agent-pod-name>
+$ kubectl logs -n ibm-observe <logDNA-agent-pod-name>
 ```
 
 ##Support email address##
