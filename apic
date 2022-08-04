@@ -1,8 +1,8 @@
 Where is it deplyed? Region / Org / Space <br>
-If Reserved Instance or Dedicated then info on the specific customer environment 
+If Reserved Instance or Dedicated then info on the specific customer environment \n
 
-Component impacted - API Manager, API Calls, Dev portal 
-- If API calls, is the problem specific to an API?
+Component impacted - API Manager, API Calls, Dev portal \\n
+- If API calls, is the problem specific to an API? <br><br>
 - CURL call including all headers. Is it okay if we reproduce the problem on our end? 
 - Is the problem API specific? Any other APIs in other catalogs affected?
 - Does it reproduce every time?  
