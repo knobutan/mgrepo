@@ -14,3 +14,8 @@ $ kubectl logs  pod <peer-name> -c  <container- name> > <peer-name>.txt
 
 Peer Pod information.
 $ kubectl describe  pod <peer-name> > <peer-name>.txt 
+
+
+###NOTE###
+https://bloodhound.uss.blockchain.cloud.ibm.com/
+Use first 8 characters to search
