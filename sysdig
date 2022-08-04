@@ -1,7 +1,7 @@
 The URL for your Sysdig instance when you launch from the /observe/monitoring URL.
 https://cloud.ibm.com/observe/embedded-view/monitoring/XXX
 
-```
+###COMMANDS###
 Configmap
 $ kubectl get configmap sysdig-agent -n ibm-observe -o yaml 
 
@@ -10,7 +10,6 @@ $ kubectl logs -n ibm-observe <sysdig-agent-pod-name>
 
 Agent describe
 $ kubectl get pods -n ibm-observe <sysdig-agent-pod-name>
-```
 
 ##Support email address##
 support@sysdig.com
