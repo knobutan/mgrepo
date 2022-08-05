@@ -1,4 +1,4 @@
-Where is it deplyed? Region / Org / Space
+Where is it deployed? Region / Org / Space
 If Reserved Instance or Dedicated then info on the specific customer environment
 
 Component impacted - API Manager, API Calls, Dev portal
@@ -10,3 +10,4 @@ Component impacted - API Manager, API Calls, Dev portal
 
 ##NOTE## 
 sre-support-apic
+https://ops.apim.ibmcloud.com/#support
