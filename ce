@@ -10,6 +10,8 @@ ImagePullBackOff failure common cases:
 - Exceeded registry quota
 - Registry needs authentication
 
+$ ibmcloud target -g XXX
+$ ibmcloud ce project select --name XXX -k  
 
 ##NOTE##
 CLI - https://cloud.ibm.com/docs/codeengine?topic=codeengine-cli
