@@ -1,10 +1,11 @@
-Where is it deployed? Region / Org / Space
+##API CONNECT## 
+Where is it deployed? Region / CF Org / CF Space
 If Reserved Instance or Dedicated then info on the specific customer environment
 
 Component impacted - API Manager, API Calls, Dev portal
 - If API calls, is the problem specific to an API?
-- CURL call including all headers. Is it okay if we reproduce the problem on our end?
-- Is the problem API specific? Any other APIs in other catalogs affected?
+- Full call details including all headers. Is it okay if we reproduce the problem on our end?
+- Is the problem specific to certain APIs? Any other APIs in other catalogs affected?
 - Does it reproduce every time?  
 - Since when do you have this problem? Was it working before? 
 
