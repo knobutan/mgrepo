@@ -1,24 +1,25 @@
+## CONTINUOUS DELIVERY / TOOLCHAIN ##
 - What component is having the issue (Continuous Delivery, toolchain, pipeline, WebIDE, etc)
 - What are you trying to achieve ? What is the ultimate goal ?
 - Did it ever work ? What is the frequency?
 
-###PIPELINE###
+##PIPELINE##
 - The pipeline URL (https://console.bluemix.net/devops/pipelines/00000000-6088-4ecc-bc30-4aed1b73276c?env_id=ibm:yp:us-east)
 - The browser customers are using.
 - Any pipleine job logs (last good run, first bad run)
 - Is it a Classic pipeline or a Tekton pipeline ?
 
-###GIT REPOSITORY###
+##GIT REPOSITORY##
 - The git repository URL
 - The GitLab user id or the e-mail address of the IBM Cloud account experiencing the problem
 - If the issue is CLI - is the customer connecting to the repository via SSH or HTTPS?
 
-###TOOLCHAIN###
+##TOOLCHAIN##
 - The account GUID that owns the Toolchain.
 - The logical location of the Toolchain, either:
         The Resource Group name and GUID.
         The Cloud Foundry Org name and GUID (only applicable in Dallas, London and Frankfurt regions).
 - The associated Continuous Delivery (CD) service URL.
 
-###NOTES###
+##NOTES##
 https://github.ibm.com/org-ids/roadmap/blob/master/support/info-to-request.md#for-delivery-pipeline-tickets
