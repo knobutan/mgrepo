@@ -1,9 +1,12 @@
-LogDNA dashboard URL. It contains ID of your instance. 
+## MEZMO / LOG ANALYSIS ##
+
+Dashboard URL. It contains ID of your instance. 
 https://cloud.ibm.com/observe/embedded-view/logging/XXX
 Any configurations inclusive of the reported problem, or known changes (Is a cloud resource Kubernetes Container, Linux or Cloud Platform?)
 
 $ kubectl get pods -l app=logdna-agent
 $ kubectl logs -n ibm-observe <logDNA-agent-pod-name>
+$ kubectl get daemonset -n ibm-observe <podname> -o yaml
 
 ##Support email address##
 sev1@mezmo.com
