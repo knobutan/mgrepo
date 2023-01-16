@@ -1,4 +1,4 @@
-##API CONNECT## 
+## API CONNECT ## 
 Where is it deployed? Region / CF Org / CF Space
 If Reserved Instance or Dedicated then info on the specific customer environment
 
@@ -9,6 +9,6 @@ Component impacted - API Manager, API Calls, Dev portal
 - Does it reproduce every time?  
 - Since when do you have this problem? Was it working before? 
 
-##NOTE## 
+## NOTE ## 
 sre-support-apic
 https://ops.apim.ibmcloud.com/#support
