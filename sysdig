@@ -1,30 +1,25 @@
+## SYSDIG / MONITORING ##
+
 The URL for your Sysdig instance when you launch from the /observe/monitoring URL.
 https://cloud.ibm.com/observe/embedded-view/monitoring/XXX
 
-###COMMANDS###
-Configmap
 $ kubectl get configmap sysdig-agent -n ibm-observe -o yaml 
-
-Agent log
 $ kubectl logs -n ibm-observe <sysdig-agent-pod-name>
-
-Agent describe
 $ kubectl get pods -n ibm-observe <sysdig-agent-pod-name>
 
-##Support email address##
+## Support email address ##
 support@sysdig.com
 
 Subject
-[PRIORITY=] IBM Cloud Support Ticket TPT####### Requires Assistance
-Body of the support case should include the following highlighted fields to help reduce the initial back-and-forth communication:
+[PRIORITY=] IBM Cloud Support Ticket XXXX
     Customer Support (CS#)
     Region(s)
     Instance ID(s)
     Agent Version
 
-##Box link##
+## Box link ##
 https://ibm.ent.box.com/folder/135718285236
 
-##NOTE##
+## NOTE ##
 ibm-sysdig-guest-cso
 ibm-sysdig-guest-help
