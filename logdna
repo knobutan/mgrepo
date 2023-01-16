@@ -8,16 +8,16 @@ $ kubectl get pods -l app=logdna-agent
 $ kubectl logs -n ibm-observe <logDNA-agent-pod-name>
 $ kubectl get daemonset -n ibm-observe <podname> -o yaml
 
-##Support email address##
+## Support email address ##
 sev1@mezmo.com
 sev2@mezmo.com
 sev3@mezmo.com
 sev4@mezmo.com
 
-##Box link##
+## Box link ##
 https://ibm.ent.box.com/folder/129553772450
 
-##NOTE##
+## NOTE ##
 ibm-logdna-guest-help
 ibm-logdna-guest-cso
 ibm-logdna-guest-cie
