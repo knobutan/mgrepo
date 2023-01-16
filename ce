@@ -10,9 +10,12 @@ ImagePullBackOff failure common cases:
 - Exceeded registry quota
 - Registry needs authentication
 
+## CLI to load kube config ##
 $ ibmcloud target -g XXX
 $ ibmcloud ce project select --name XXX -k  
 
-##NOTE##
+## NOTE ##
 CLI - https://cloud.ibm.com/docs/codeengine?topic=codeengine-cli
 Buildrun - https://github.ibm.com/coligo/codeengine-support/issues/144
+code-engine-issues
+code-engine-users
