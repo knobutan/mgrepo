@@ -6,6 +6,7 @@ https://cloud.ibm.com/observe/embedded-view/monitoring/XXX
 $ kubectl get configmap sysdig-agent -n ibm-observe -o yaml 
 $ kubectl logs -n ibm-observe <sysdig-agent-pod-name>
 $ kubectl get pods -n ibm-observe <sysdig-agent-pod-name>
+$ kubectl get daemonset sysdig-agent -o yaml -n ibm-observe > sysdig-agent-ds.yaml
 
 ## Support email address ##
 support@sysdig.com
