@@ -9,6 +9,9 @@ Component impacted - API Manager, API Calls, Dev portal
 - Does it reproduce every time?  
 - Since when do you have this problem? Was it working before? 
 
+## RELEASE SCHEDULE ##
+https://github.ibm.com/velox/velox/wiki/Release-schedule
+
 ## NOTE ## 
 https://ops.apim.ibmcloud.com/#support
 sre-support-apic
